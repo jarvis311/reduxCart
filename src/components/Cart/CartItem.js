@@ -12,11 +12,11 @@ const CartItem = (props) => {
       price,
     }))
   }
-  
+
   const removeCartItem = () => {
     dispatch(cartAction.removeCart(id))
   }
-
+  
   return (
     <li className={classes.item}>
       <header>
